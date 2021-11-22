@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<script type="text/javascript" src="formChecker.js"></script>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<form action="customerBackend.php" method="post" onsubmit="checkForm()">
+		<label for="item1">Free Nothing (Select Quantity):</label>		
+		<input class="field" type="number" name="item1" value="Free Nothing" id="item1"><br>
+		<label for="item2">$5.00 Something (Select Quantity):</label>
+		<input class="field" type="number" name="item2" value="$5.00 Something" id="item2"><br>
+		<label for="item3">$10.00 Everything (Select Quantity):</label>
+		<input class="field" type="number" name="item3" value="$10.00 Everything" id="item3"><br>
+		<br><label for="username">Username:</label>
+		<input class="field" type="text" name="username" id="username">
+		<br><label for="password">Password:</label>
+		<input class="field" type="text" name="password"id="password">
+		<br><label for="shipping">Select shipping type:</label><br>
+		<input type="radio" name="shippings" value="Free 7 Day" id="op1"><p>Free 7 Day</p>
+		<input type="radio" name="shippings" value="$50.00 over night" id="op2"><p>$50.00 over night</p>
+		<input type="radio" name="shippings" value="$5.00 3 day" id="op3"><p>$5.00 3 day</p>
+		<br><input type="reset">
+		<br><input type="submit">
+	</form>
+</html>

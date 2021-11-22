@@ -1,0 +1,58 @@
+body{
+	background-color: lightblue;
+}
+
+p{
+	background-color: aqua;
+}
+
+h1{
+	background-color: aqua;
+	text-align: center;
+	font: 22pt impact;
+}
+
+label{
+	background-color: aqua;
+}
+
+input.field{
+	width: 100%;
+}
+
+
+table{
+	border: 1px solid gray;
+	width: 10px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th{
+	border: 1px solid gray;
+	width: 10px;
+	text-align: center;
+	background-color: aqua;
+}
+
+tr{
+	border: 1px solid gray;
+	width: 10px;
+	text-align: center;
+}
+
+td{
+	border: 1px solid gray;
+	width: 10px;
+	text-align: center;
+	background-color: white;
+}
+
+td.total{
+	border: 1px solid gray;
+	width: 10px;
+	text-align: center;
+	background-color: aqua;
+}
+
